@@ -1,5 +1,6 @@
 function generate() {
   const usernameEl = document.getElementById("username");
+  alert(`u ; ${usernameEl}`);
   const nameEl = document.getElementById("name");
   const skillsEl = document.getElementById("skills");
   const typeEl = document.getElementById("type");
