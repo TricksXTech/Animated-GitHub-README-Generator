@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Animated GitHub README Generator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+  <h1>✨ GitHub README Generator</h1>
+  <p>Create animated, freelancer-ready GitHub profiles</p>
+
+  <input id="username" placeholder="GitHub Username">
+  <input id="name" placeholder="Your Name">
+  <input id="skills" placeholder="Skills (comma separated)">
+  
+  <select id="type">
+    <option value="freelancer">Freelancer</option>
+    <option value="minimal">Minimal</option>
+    <option value="gaming">Gaming</option>
+  </select>
+
+  <button onclick="generate()">Generate README</button>
+
+  <textarea id="output" placeholder="Your README will appear here"></textarea>
+  <button onclick="copy()">📋 Copy README</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
